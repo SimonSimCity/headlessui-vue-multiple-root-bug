@@ -8,6 +8,7 @@
         </a>
       </MenuItem>
       <MenuItem v-slot="{ active }">
+        <i>Another text</i>
         <a :class='{ "bg-blue-500": active }' href="/account-settings">
           Documentation
         </a>
