@@ -1,10 +1,12 @@
 <script setup lang="ts">
+import headline from './headline.vue'
 defineProps<{
   msg: string
 }>()
 </script>
 
 <template>
+  <headline></headline>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
